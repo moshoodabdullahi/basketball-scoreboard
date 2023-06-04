@@ -1,16 +1,25 @@
-# Project Name
+# BASKETBALL SCOREBOARD
 
 > One paragraph statement about the project.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 elements
+  - Semantic elements such as `div`.
+- CSS properties
+  - Typography such as `font-size`, `font-weight` and so on,
+  - CSS flexbox such as `justify-content`, `align-items` and so on,
+  - CSS Background for page aesthetic using `background-color`.
+- JavaScript Properties
+  - Document Object Model(DOM) such as `getElementById`, `addEventListener`. 
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/).
+- GitHub Action
+- Acknowledgment
+[Scrimba-Project Figma Design](https://www.figma.com/file/R1E5jMRwQ4BluOYxPHz37O/Basketball-Scoreboard-(Copy)?type=design&node-id=0-1&t=DTQYqPeO2W2aZy0p-0)
 
 ## Live Demo
 
@@ -21,7 +30,7 @@ Additional description about the project and its features.
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone https://github.com/user/basketball-scoreboard.git
 
 ```
 
@@ -70,9 +79,8 @@ npm run html-validator
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@moshoodabdullahi](https://github.com/moshoodabdullahi)
+- Linkedin: [@moshoodabdullahi](https://www.linkedin.com/in/moshoodabdullahi/)
 
 ## 🤝 Contributing
 
@@ -86,9 +94,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [Scrimba Learn JavaScript](https://scrimba.com/learn/learnjavascript)
 
 ## 📝 License
 

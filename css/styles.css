@@ -1,0 +1,140 @@
+* {
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    padding: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #1B244A;
+    max-width: 700px;
+    max-height: 550px;
+    position: relative;
+    padding: 42px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-heading {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 32px;
+}
+
+.home-score {
+    width: 155px;
+    height: 120px;
+    background-color: #000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#home-score-el {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    color: #f94f6d;
+    text-align: center;
+    line-height: 140px;
+}
+
+.home-addPoints {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.home-addPoints button {
+    font-family: sans-serif;
+    width: 45px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27.81px;
+    text-align: center;
+    color: #b6c3e6;
+    border: 2px solid #b6c3b6;
+    border-radius: 5px;
+    background-color: #1B244A;
+    cursor: pointer;
+}
+
+.guest-heading {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.guest-score {
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#guest-score-el {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;
+    text-align: center;
+    line-height: 140px;
+}
+
+.guest-addPoints {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.guest-addPoints button {
+    font-family: sans-serif;
+    width: 45px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27.81px;
+    text-align: center;
+    color: #b6c3e6;
+    border: 2px solid #b6c3e6;
+    border-radius: 5px;
+    background-color: #1B244A;
+    cursor: pointer;
+}
+
+.container .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resetGame button {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27.81px;
+    text-align: center;
+    color: #b6c3e6;
+    border: 2px solid #b6c3e6;
+    border-radius: 5px;
+    background-color: #1B244A;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
