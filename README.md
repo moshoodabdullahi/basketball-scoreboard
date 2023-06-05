@@ -1,8 +1,8 @@
 # BASKETBALL SCOREBOARD
 
-> One paragraph statement about the project.
+> A basketball Scoreboard webpage built using semantics HTML, typography and DOM(Document Object Model).
 
-![screenshot](./app_screenshot.png)
+![screenshot](./basketball-scoreboard-screenshot.png)
 
 ## Built With
 
@@ -23,7 +23,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://doc-basketball-scoreboard.netlify.app/)
 
 ### Development (Running locally)
 
