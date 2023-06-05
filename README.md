@@ -1,8 +1,8 @@
 # BASKETBALL SCOREBOARD
 
-> A basketball Scoreboard webpage built using semantics HTML, typography and DOM(Document Object Model).
+> A basketball Scoreboard webpage built using DOM(Document Object Model).
 
-![screenshot](./basketball-scoreboard-screenshot.png)
+![screenshot](./app-screenshot.png)
 
 ## Built With
 
