@@ -1,45 +1,41 @@
-let homeScoreEl = document.getElementById("home-score-el");
-let guestScoreEl = document.getElementById("guest-score-el");
+const homeScoreEl = document.getElementById('home-score-el');
+const guestScoreEl = document.getElementById('guest-score-el');
 
-let homeScoreBtnOne = document.getElementById("home-add1Points");
-let homeScoreBtnTwo = document.getElementById("home-add2Points")
-let homeScoreBtnThree = document.getElementById("home-add3Points");
+const homeScoreBtnOne = document.getElementById('home-add-1-points');
+const homeScoreBtnTwo = document.getElementById('home-add-2-points');
+const homeScoreBtnThree = document.getElementById('home-add-3-points');
 
-let guestScoreBtnOne = document.getElementById("guest-Add1Points");
-let guestScoreBtnTwo = document.getElementById("guest-Add2Points");
-let guestScoreBtnThree = document.getElementById("guest-Add3Points");
+const guestScoreBtnOne = document.getElementById('guest-add-1-points');
+const guestScoreBtnTwo = document.getElementById('guest-add-2-points');
+const guestScoreBtnThree = document.getElementById('guest-add-3-points');
 
+const newGameButton = document.getElementById('newgamebutton');
 
-let newGameButton = document.getElementById("newGameButton");
-
-homeScoreBtnOne.addEventListener("click", function () {
-    homeScoreEl.textContent++;
+homeScoreBtnOne.addEventListener('click', function () {
+  homeScoreEl.textContent += 1;
 });
 
-
-homeScoreBtnTwo.addEventListener("click", function () {
-    homeScoreEl.textContent = Number(homeScoreEl.textContent) + 2;
+homeScoreBtnTwo.addEventListener('click', function () {
+  homeScoreEl.textContent = Number(homeScoreEl.textContent) + 2;
 });
 
-
-homeScoreBtnThree.addEventListener("click", function () {
-    homeScoreEl.textContent = Number(homeScoreEl.textContent) + 3;
+homeScoreBtnThree.addEventListener('click', function () {
+  homeScoreEl.textContent = Number(homeScoreEl.textContent) + 3;
 });
 
-
-guestScoreBtnOne.addEventListener("click", function () {
-    guestScoreEl.textContent++;
+guestScoreBtnOne.addEventListener('click', function () {
+  guestScoreEl.textContent += 1;
 });
 
-guestScoreBtnTwo.addEventListener("click", function () {
-    guestScoreEl.textContent = Number(guestScoreEl.textContent) + 2;
+guestScoreBtnTwo.addEventListener('click', function () {
+  guestScoreEl.textContent = Number(guestScoreEl.textContent) + 2;
 });
 
-guestScoreBtnThree.addEventListener("click", function () {
-    guestScoreEl.textContent = Number(guestScoreEl.textContent) + 3;
+guestScoreBtnThree.addEventListener('click', function () {
+  guestScoreEl.textContent = Number(guestScoreEl.textContent) + 3;
 });
 
-newGameButton.addEventListener("click", function () {
-    homeScoreEl.textContent = 0;
-    guestScoreEl.textContent = 0;
+newGameButton.addEventListener('click', function () {
+  homeScoreEl.textContent = 0;
+  guestScoreEl.textContent = 0;
 });
