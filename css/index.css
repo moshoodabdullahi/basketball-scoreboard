@@ -1,3 +1,150 @@
-/* Example of @import use
-This imports the `reset.css` file */
-@import url('./reset.css');
+@font-face {
+  font-family: 'Cursed Timer';
+  src: url('../fonts/CursedTimer.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Verdana;
+  src: url('../fonts/VerdanaBold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Cursed Timer', sans-serif;
+  margin: auto;
+  margin-top: 2%;
+  text-align: center;
+  padding: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #1b244a;
+  max-width: 700px;
+  max-height: 550px;
+  position: relative;
+  padding: 42px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-heading h3 {
+  font-family: Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-score {
+  width: 155px;
+  height: 120px;
+  background-color: #000;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#home-score-el {
+  font-weight: 400;
+  font-size: 90px;
+  color: #f94f6d;
+  text-align: center;
+  line-height: 140px;
+}
+
+.home-addpoints {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.home-addpoints button {
+  width: 45px;
+  height: 45px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27.81px;
+  text-align: center;
+  color: #b6c3e6;
+  border: 2px solid #b6c3b6;
+  border-radius: 5px;
+  background-color: #1b244a;
+  cursor: pointer;
+}
+
+.guest-heading h3 {
+  font-family: Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.guest-score {
+  width: 155px;
+  height: 120px;
+  background-color: black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#guest-score-el {
+  font-weight: 400;
+  font-size: 90px;
+  color: #f94f6d;
+  text-align: center;
+  line-height: 140px;
+}
+
+.guest-addpoints {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.guest-addpoints button {
+  width: 45px;
+  height: 45px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27.81px;
+  text-align: center;
+  color: #b6c3e6;
+  border: 2px solid #b6c3e6;
+  border-radius: 5px;
+  background-color: #1b244a;
+  cursor: pointer;
+}
+
+.container .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.resetgame button {
+  font-family: Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27.81px;
+  text-align: center;
+  color: #b6c3e6;
+  border: 2px solid #b6c3e6;
+  border-radius: 5px;
+  background-color: #1b244a;
+  margin-bottom: 15px;
+  cursor: pointer;
+}

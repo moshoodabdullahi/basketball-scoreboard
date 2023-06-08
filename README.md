@@ -1,27 +1,30 @@
-# Project Name
+# BASKETBALL SCOREBOARD
 
-> One paragraph statement about the project.
+> A basketball Scoreboard webpage built using DOM(Document Object Model).
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./app-screenshot.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 elements
+  - Document Object Model(DOM) such as `getElementById`, `addEventListener`.
+- JavaScript Properties
+  - `function()`
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/).
+- GitHub Action
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://doc-basketball-scoreboard.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone https://github.com/moshoodabdullahi/basketball-scoreboard.git
 
 ```
 
@@ -70,9 +73,8 @@ npm run html-validator
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@moshoodabdullahi](https://github.com/moshoodabdullahi)
+- Linkedin: [@moshoodabdullahi](https://www.linkedin.com/in/moshoodabdullahi/)
 
 ## 🤝 Contributing
 
@@ -84,11 +86,8 @@ Feel free to check the [issues page](../../issues).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- Acknowledgment
+  [Scrimba-Project Figma Design](<https://www.figma.com/file/R1E5jMRwQ4BluOYxPHz37O/Basketball-Scoreboard-(Copy)?type=design&node-id=0-1&t=DTQYqPeO2W2aZy0p-0>)
 
 ## 📝 License
 
