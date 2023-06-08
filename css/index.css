@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: Verdana;
-  src: url('fonts/VerdanaBold.ttf');
+  src: url('../fonts/VerdanaBold.ttf');
   font-weight: 700;
   font-style: normal;
 }

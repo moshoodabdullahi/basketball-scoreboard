@@ -7,19 +7,13 @@
 ## Built With
 
 - HTML5 elements
-  - Semantic elements such as `div`.
-- CSS properties
-  - Typography such as `font-size`, `font-weight` and so on,
-  - CSS flexbox such as `justify-content`, `align-items` and so on,
-  - CSS Background for page aesthetic using `background-color`.
-- JavaScript Properties
   - Document Object Model(DOM) such as `getElementById`, `addEventListener`.
+- JavaScript Properties
+  - `function()`
 - Linters
   - [Prettier](https://prettier.io/),
   - [Stylelint](https://stylelint.io/).
 - GitHub Action
-- Acknowledgment
-  [Scrimba-Project Figma Design](<https://www.figma.com/file/R1E5jMRwQ4BluOYxPHz37O/Basketball-Scoreboard-(Copy)?type=design&node-id=0-1&t=DTQYqPeO2W2aZy0p-0>)
 
 ## Live Demo
 
@@ -30,7 +24,7 @@
 - Clone the project
 
 ```bash
-git clone https://github.com/user/basketball-scoreboard.git
+git clone https://github.com/moshoodabdullahi/basketball-scoreboard.git
 
 ```
 
@@ -92,9 +86,8 @@ Feel free to check the [issues page](../../issues).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- [Scrimba Learn JavaScript](https://scrimba.com/learn/learnjavascript)
+- Acknowledgment
+  [Scrimba-Project Figma Design](<https://www.figma.com/file/R1E5jMRwQ4BluOYxPHz37O/Basketball-Scoreboard-(Copy)?type=design&node-id=0-1&t=DTQYqPeO2W2aZy0p-0>)
 
 ## 📝 License
 
