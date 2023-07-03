@@ -24,7 +24,7 @@ homeScoreBtnThree.addEventListener('click', function handler() {
 });
 
 guestScoreBtnOne.addEventListener('click', function handler() {
-  guestScoreEl.textContent = Number(homeScoreEl.textContent) + 1;
+  guestScoreEl.textContent = Number(guestScoreEl.textContent) + 1;
 });
 
 guestScoreBtnTwo.addEventListener('click', function handler() {

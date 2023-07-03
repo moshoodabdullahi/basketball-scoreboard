@@ -9,38 +9,40 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="home-heading">
-          <h3>HOME</h3>
-          <div class="home-score">
-            <h4 id="home-score-el">0</h4>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="home-heading">
+            <h3>HOME</h3>
+            <div class="home-score">
+              <h4 id="home-score-el">0</h4>
+            </div>
+            <div class="home-addpoints">
+              <button type="button" id="home-add-1-points">+1</button>
+              <button type="button" id="home-add-2-points">+2</button>
+              <button type="button" id="home-add-3-points">+3</button>
+            </div>
           </div>
-          <div class="home-addpoints">
-            <button type="button" id="home-add-1-points">+1</button>
-            <button type="button" id="home-add-2-points">+2</button>
-            <button type="button" id="home-add-3-points">+3</button>
+          <div class="guest-heading">
+            <h3>GUEST</h3>
+            <div class="guest-score">
+              <h4 id="guest-score-el">0</h4>
+            </div>
+            <div class="guest-addpoints">
+              <button type="button" id="guest-add-1-points">+1</button>
+              <button type="button" id="guest-add-2-points">+2</button>
+              <button type="button" id="guest-add-3-points">+3</button>
+            </div>
           </div>
         </div>
-        <div class="guest-heading">
-          <h3>GUEST</h3>
-          <div class="guest-score">
-            <h4 id="guest-score-el">0</h4>
-          </div>
-          <div class="guest-addpoints">
-            <button type="button" id="guest-add-1-points">+1</button>
-            <button type="button" id="guest-add-2-points">+2</button>
-            <button type="button" id="guest-add-3-points">+3</button>
-          </div>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="resetgame">
-          <button type="button" id="newgamebutton">New Game</button>
+        <div class="row">
+          <div class="resetgame">
+            <button type="button" id="newgamebutton">New Game</button>
+          </div>
         </div>
       </div>
-    </div>
+    </main>
     <script src="js/index.js"></script>
   </body>
 </html>
